@@ -97,7 +97,9 @@ ul{
 }
 
 
-
+.first-section-container{
+    padding: 188px 0;
+}
 .first-section{
     background-color: #2e2f42;
 }
@@ -106,7 +108,8 @@ ul{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-color: #FFFFFF;
+    color: #FFFFFF;
+    max-width: 496px;
 }
 .style-button{
     background-color: #4d5ae5;
@@ -116,6 +119,12 @@ color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     }
 .style-button:hover,
 .style-button:focus{
