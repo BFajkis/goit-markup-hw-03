@@ -1,11 +1,34 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
+
 ul{
     list-style-type: none;
+}
+
+.style-header {
+    border-bottom: 1px solid #e7e9fc
+}
+.header-container{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+.navigacion{
+    display: flex;
+    align-items:center;
 }
 
 .style-logo{
@@ -17,10 +40,15 @@ ul{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .secend_pice_logo{
     color:#2e2f42;
+}
+.menu-navigacion{
+    display: flex;
+    gap: 40px;
 }
 .link_logo{
     font-weight: 500;
@@ -29,6 +57,7 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 .link_logo:hover,
 .link_logo:focus
@@ -43,6 +72,11 @@ ul{
 }
 .contacts{
     font-style: normal;
+}
+.menu_adress{
+    display: flex;
+    gap: 40px;
+    justify-content: right;
 }
 .contacts_link{
     font-size: 16px;
