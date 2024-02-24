@@ -179,21 +179,16 @@ ul{
 .container-thirth-section{
     padding: 120px 0;
 }
-.container-thirth-section .thirt-section-hsecend{
-    margin-bottom: 72px;
-}
-.container-thirth-section .color_list{
+
+.list-thirt-section{
     display: flex;
     gap: 24px;
-
-    }
-.list-thirt-section{
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
       
 }
 .container-name{
-    padding: 32px 16px 32 px;
+   padding: 32px 16px 32 px;
 }
 
 .thirt-section-hsecend{
@@ -203,10 +198,17 @@ ul{
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+.style-section{
+    padding: 120px 0 120px 0;
 }
 .color_list{
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
+
 .style_footer{
     background-color: #2e2f42;
 }
