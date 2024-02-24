@@ -146,6 +146,8 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
     
 }
 .style-acapit{
@@ -153,6 +155,7 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
     
 }
 
@@ -160,7 +163,8 @@ ul{
     padding: 120px 0;
 }
 .visually-hidden{
-        visibility: hidden;
+    display: none;
+    visibility: hidden;
 }
 .list-section-two{
     display: flex;
@@ -172,6 +176,26 @@ ul{
 .thirth_section{
     background:#F4F4FD
 }
+.container-thirth-section{
+    padding: 120px 0;
+}
+.container-thirth-section .thirt-section-hsecend{
+    margin-bottom: 72px;
+}
+.container-thirth-section .color_list{
+    display: flex;
+    gap: 24px;
+
+    }
+.list-thirt-section{
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+      
+}
+.container-name{
+    padding: 32px 16px 32 px;
+}
+
 .thirt-section-hsecend{
     font-size: 36px;
     line-height: 1.11;
