@@ -25,11 +25,12 @@ ul{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    border-bottom: 1px solid #e7e9fc
 }
 .navigacion{
     display: flex;
     align-items:center;
-    
+
 }
 
 .style-logo{
@@ -184,6 +185,7 @@ ul{
 }
 .items-section-four{
     width: calc((100% - 48px) / 3)
+    styl border: 1px solid #e7e9fc
 }
 .category{
     padding: 32px 16px;
@@ -193,7 +195,7 @@ ul{
 }
 .items-section-two{
     flex-basis: calc((100% - 3 * 24px) / 4)
-    border-radius: 0px 0px 4px 4px;
+    border-radius 0px 0px 4px 4px;
 }
 .thirth_section{
     background:#F4F4FD
