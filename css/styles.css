@@ -166,7 +166,7 @@ padding: 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 8px;
     
 }
@@ -175,7 +175,7 @@ padding: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: left;
+    text-align: center;
     margin-bottom: 8px;
     
 }
@@ -207,12 +207,15 @@ padding: 0;
 }
 .category{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
     
 }
 .items-section-two{
     flex-basis: calc((100% - 3 * 24px) / 4)
     border-radius 0px 0px 4px 4px;
+    
 }
 .thirth_section{
     background:#F4F4FD;
@@ -224,6 +227,7 @@ padding: 0;
     gap: 24px;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+   
     
       
 }
