@@ -217,6 +217,7 @@ padding: 0;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    border-radius: 0px 0px 4px 4px;
     
     
 }
@@ -241,7 +242,6 @@ padding: 0;
 .container-name{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
-border-radius: 0px 0px 4px 4px;
 }
 
 .thirt-section-hsecend{
@@ -264,6 +264,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 24px;
     margin: 0 auto;
     margin-bottom: 48px;
+    border-radius: 0px 0px 4px 4px;
     
 }
 
