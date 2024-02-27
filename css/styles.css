@@ -214,10 +214,9 @@ padding: 0;
     margin: 0 auto;
 }
 .category{
-    padding: 32px 0px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
-
-    border-radius: 0px 0px 4px 4px;
+    border-top: none;
     
     
 }
@@ -229,22 +228,19 @@ padding: 0;
 .thirth_section{
     background:#F4F4FD;
     padding: 120px 0;
-    border-top: none;
     border-radius: 0px 0px 4px 4px;
-
 
 }
 
 .list-thirt-section{
     display: flex;
     gap: 24px;
-    padding:32px 0px;
+    padding:32px 16px;
 }
 
 .container-name{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
-border-top: none;
 border-radius: 0px 0px 4px 4px;
 }
 
@@ -268,9 +264,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 24px;
     margin: 0 auto;
     margin-bottom: 48px;
-    border-radius: 0px 0px 4px 4px;
-    border-top: none;
-    padding: 32px 0px;
+    
 }
 
 .style_footer{
