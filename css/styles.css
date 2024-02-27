@@ -214,7 +214,7 @@ padding: 0;
     margin: 0 auto;
 }
 .category{
-    padding: 32px 0;
+    padding: 32px 0px;
     border: 1px solid #e7e9fc;
 
     border-radius: 0px 0px 4px 4px;
@@ -238,7 +238,7 @@ padding: 0;
 .list-thirt-section{
     display: flex;
     gap: 24px;
-    padding:32px 16px;
+    padding:32px 0px;
 }
 
 .container-name{
@@ -269,7 +269,8 @@ border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
     margin-bottom: 48px;
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
+    border-top: none;
+    padding: 32px 0px;
 }
 
 .style_footer{
